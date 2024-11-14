@@ -1,3 +1,16 @@
+# tailwind-merge-issue
+
+this repo is to show an issue that tailwind-merge does not correctly merge
+two utility classes:
+
+- text-red-600 (styling font color)
+- text-tremor-default (styling font size)
+
+only the class that is listed at the end will remain in the output, even tough both should be kept.
+
+see the test compontent `Test` for demonstration of the problem in `main.tsx`.
+
+
 # volta
 
 volta is a node version management tool. it helps installing and switching to the desired node version.
